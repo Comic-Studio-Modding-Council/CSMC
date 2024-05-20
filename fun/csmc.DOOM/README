@@ -1,0 +1,25 @@
+================= [Intro] ============CSMC
+csdoom is a script to play DOOM 1993 in
+Comic Studio.
+Used js-dos for this.
+
+================= [Notes] ============CSMC
+1. You must have a legit copy of DOOM
+   (MS-DOS) by id Software
+2. Pack it with dos.zone/studio
+3. Change our previous one with your.
+
+================= [Usage] ============CSMC
+1. Install TamperMonkey
+2. Select one of these script:
+
+csdoom.user.js            - All studios
+csdoom-doomcsonly.user.js - DOOM CS only
+
+3. On GitHub, press "Raw" and TM will
+   prompt to install.
+
+================ [App4Pub] ===========CSMC
+This only made for fun, not very serious.
+
+================== [End] =============CSMC
