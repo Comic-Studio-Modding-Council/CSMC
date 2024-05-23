@@ -12,7 +12,7 @@ import aiohttp
 from aiohttp import ClientSession
 from aiohttp.client_exceptions import ClientError
 
-csmap_version = "2.1pub"
+csmap_version = "2.2pub"
 
 # Global variable to keep track of current state
 current_code = None
@@ -54,6 +54,9 @@ async def check_url_status(session, url, user_agent):
             # print(f"[DEBUG] response: {response}")
             if response.status == 200 and final_url != url and 'https://cdn.comic.studio/comics' in final_url:
                 print(f"Valid:   {url} | {final_url}")
+                return 1, final_url
+            if response.status == 200 and final_url != url and 'https://cdn.comic.studio/' in final_url: # Feed
+                print(f"ValidFD: {url} | {final_url}")
                 return 1, final_url
             elif response.status == 403:
                 print(f"Special: {url} | {final_url}")
@@ -178,7 +181,7 @@ async def main():
 if __name__ == "__main__":
     os.system("title CSMC - CSmap")
     print(f"CSmap {csmap_version}")
-    print("by Bang1338 and AuLeStub")
+    print("by Bang1338, AuLeStub and xMaxtris")
     print("for Comic Studio Modding Council\n")
     print("DO NOT USE IT FOR ILLEGAL PURPOSE!")
     print("This project has been approved by Bang1338 for publishing on GitHub.\n")
