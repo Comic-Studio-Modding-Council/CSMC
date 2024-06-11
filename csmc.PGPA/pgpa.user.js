@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         PGPA
 // @namespace    csmc.PGPA
-// @version      1.1
+// @version      1.11
 // @description  Encrypt message using PGP.
 // @author       Bang1338, xMaxtris, WL^DBT
-// @match        https://comic.studio/*
+// @match        *://comic.studio/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=comic.studio
 // @require      https://unpkg.com/openpgp@5.11.1/dist/openpgp.min.js
 // @grant        none
