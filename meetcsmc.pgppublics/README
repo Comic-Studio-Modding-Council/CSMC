@@ -15,6 +15,11 @@ or GNU Privacy Assistant and send email to
 Title: [Member here] - [title here]
 Content: [PGP encrypted message here]
 
+PGP public key missings:
+* Bang1338-mobile - Bang1338 when mobile
+* Bang1338-lite   - Bang1338 ECDSA version
+* ToPhat          - ToPhat's public key
+
 ================ [App4Pub] ===========CSMC
 Everything approved by Bang1338 for
 publishing this tool and repo to public.
