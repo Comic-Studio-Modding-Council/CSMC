@@ -1,0 +1,54 @@
+================= [Intro] ============CSMC
+PGPA is a script to encrypt DM with PGP so
+moderator can't read your message in DM,
+even if moderator found the link to DM.
+
+================== [Why] =============CSMC
+Comic Studio doesn't care about privacy,
+they log your IP, disallow VPN/proxy
+(which can't avoid) and they can see and
+log everything, everywhere.
+
+Only DM are avoidable with PGP.
+
+================= [Usage] ============CSMC
+NOTE: RSA KEY ARE NOT SUPPORTED SINCE IT
+CREATE BIG DATA AND COMIC STUDIO LIMITED
+TO 2500 CHARS, PLEASE USE ECDSA KEY FOR
+SMALLER DATA.
+
+You need to apply ONCE MANUALLY, as long
+as your Cookies is not cleared.
+
+Press Ctrl + Shift + I, go to console and
+type this:
+
+importPGPfromText("""
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+...
+-----END PGP PUBLIC KEY BLOCK-----
+""")
+
+or:
+
+importPGPfromLink("keys.openpgp.org/vks/v1
+/by-fingerprint/KEY_ID")
+
+After import public key from browser, you
+can now using "Encrypt" button in your
+DM.
+
+For decryption (as they use your public
+key to encrypt their message), you have to
+manually doing it using external software.
+
+For new public key, simply run command
+from console again.
+
+================ [App4Pub] ===========CSMC
+Approved by Bang1338 for publishing this
+tool and repo to public.
+
+<PGP signature>
+
+================== [End] =============CSMC
