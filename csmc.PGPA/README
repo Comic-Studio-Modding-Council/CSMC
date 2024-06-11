@@ -24,11 +24,11 @@ After install the script, press
 Ctrl + Shift + I, go to console and type 
 this command:
 
-importPGPfromText("""
+importPGPfromText(`
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 ...
 -----END PGP PUBLIC KEY BLOCK-----
-""")
+`)
 
 or:
 
