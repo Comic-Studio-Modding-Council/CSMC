@@ -20,8 +20,9 @@ SMALLER DATA.
 You need to apply ONCE MANUALLY, as long
 as your Cookies is not cleared.
 
-Press Ctrl + Shift + I, go to console and
-type this:
+After install the script, press 
+Ctrl + Shift + I, go to console and type 
+this command:
 
 importPGPfromText("""
 -----BEGIN PGP PUBLIC KEY BLOCK-----
